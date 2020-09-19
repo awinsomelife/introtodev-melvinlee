@@ -1,0 +1,259 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+}
+
+html,
+body,
+textarea {
+  font-family: Verdana, sans-serif;
+  font-size: 1vw;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4vw;
+}
+h2 {
+  font-size: 3vw;
+}
+h3 {
+  font-size: 2vw;
+}
+h4 {
+  font-size: 1vw;
+}
+
+p {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 3vw;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+header,
+div,
+section,
+footer {
+  display: block;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1vw;
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/PortfolioProject/Images/Melvin Lee.jpg");
+  height: 100%;
+  width: 40%;
+  background-color: #fff;
+  position: fixed !important;
+  z-index: 1;
+  overflow: auto;
+}
+
+.item2 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  margin-left: 40% !important;
+  text-align: center !important;
+  padding: 12px 24px !important;
+  transition: margin-left 0.4s;
+}
+
+.coaching {
+  float: left;
+  text-align: center;
+  width: 49.99999%;
+  padding: 4px 8px !important;
+  margin-bottom: 16px !important;
+}
+
+.coaching2 {
+  float: left;
+  text-align: center;
+  width: 33.33333%;
+  padding: 4px 8px !important;
+  margin-bottom: 16px !important;
+}
+
+.coachinglist {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 16px !important;
+  color: #757575 !important;
+}
+
+.list {
+  color: #fff !important;
+  background-color: #616161 !important;
+  font-size: 2vw !important;
+  text-align: center !important;
+  padding: 8px 16px;
+  margin-bottom: 16px !important;
+  border-bottom: 1px solid #ddd;
+  list-style-type: none;
+}
+
+.listitem {
+  list-style-type: none;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  border-bottom: 1px solid #ddd;
+}
+
+.signup {
+  background-color: #f1f1f1 !important;
+  font-size: 1vw !important;
+  text-align: center !important;
+  padding: 24px 24px;
+  margin-bottom: 16px !important;
+  border-bottom: 1px solid #ddd;
+  list-style-type: none;
+}
+
+.forminput {
+  padding: 8px;
+  display: block;
+  border: 1px solid #ccc !important;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+ul:hover {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+  padding: 12px 24px !important;
+  color: #fff !important;
+  background-color: #000 !important;
+}
+
+.icon:hover {
+  color: orange;
+  font-size: 36px !important;
+}
+
+.text:hover {
+  color: #ff9800 !important;
+}
+
+.skills:hover {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+    .coaching,
+    .coaching2 {
+      width: 100%;
+      font-size: 2vw;
+    }
+
+    .coachinglist {
+        font-size: 4vw;
+    }
+
+    .list {
+        font-size: 2vw;
+    }
+  
+    h1,
+    h2,
+    h3,
+    h4 {
+      width: 100%;
+      font-size: 4vw;
+    }
+  
+    body,
+    p {
+      width: 100%;
+      font-size: 2vw;
+    }
+  
+    .item1 {
+      width: 40%;
+    }
+  
+    .item2 {
+      margin-left: 40% !important;
+    }
+  }
+  
+  /* For tablets: */
+  @media only screen and (max-width: 600px) {
+    .coaching,
+    .coaching2 {
+      width: 100%;
+      font-size: 2vw;
+    }
+  
+    h1,
+    h2,
+    h3,
+    h4 {
+      width: 100%;
+      font-size: 4vw;
+    }
+  
+    p {
+      width: 100%;
+      font-size: 2vw;
+    }
+  
+    .item1 {
+      width: 40%;
+    }
+  
+    .item2 {
+      margin-left: 40% !important;
+    }
+    
+    .coachinglist {
+        font-size: 4vw;
+    }
+  }
+  
+  
