@@ -98,7 +98,8 @@ footer {
   margin-left: 40% !important;
   text-align: center !important;
   padding: 12px 24px !important;
-  transition: margin-left 0.4s;
+  animation-name: examples;
+  transition: margin-left 5s;
 }
 
 .coaching {
@@ -182,6 +183,12 @@ button:hover {
 .skills:hover {
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+@keyframes examples {
+}
+
+
 
 /* For mobile phones: */
 @media only screen and (max-width: 600px) {
