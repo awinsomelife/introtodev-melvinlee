@@ -1,0 +1,47 @@
+{
+    "Students": [
+        {
+            "id": 1,
+            "name": "Melvin",
+            "age": 32,
+            "address": {
+                "country": "Singapore"
+            } 
+
+        },
+
+        {
+            "id": 2,
+            "name": "Jacqueline",
+            "age": 32,
+            "address": {
+                "line1": "123 Main Street",
+                "country": "Singapore"
+            } 
+
+        }
+    ],
+    "Teachers": [
+        {
+            "id": 1,
+            "name": "Nicole",
+            "age": 32,
+            "address": {
+                "country": "Singapore"
+            } 
+
+        },
+
+        {
+            "id": 2,
+            "name": "Michelle",
+            "age": 32,
+            "address": {
+                "line1": "456 Main Street",
+                "country": "Singapore"
+            } 
+
+        }
+    ]
+
+}

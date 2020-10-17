@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#test").on({
+    mouseenter: function(){
+        //Get the original value of the element that you can replace back once you need it
+
+    let originalValue = $("#test").text();
+      $(this).css("background-color", "lightgray");
+    },  
+    mouseleave: function(){
+      $(this).css("background-color", "lightblue");
+      $(this).text( "Some new text.");
+    }, 
+    click: function(){
+      $(this).css("background-color", "yellow");
+    }  
+  });
+});
+</script>
+</head>
+<body>
+
+<div id= "test">Click or move the mouse pointer over this div.</div>
+<div>Click or move the mouse pointer over this div.</div>
+<div>Click or move the mouse pointer over this div.</div>
+</body>
+</html>
+

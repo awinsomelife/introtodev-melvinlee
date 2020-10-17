@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    //Means that run your jquery function only once your document is ready
+$(document).ready(function(){
+    $('#p1').hover(function(){
+        alert("You entered p1!");
+    },
+    function(){
+        alert("Bye! You now leave P1!");
+    });
+});
+
+$(document).ready(function(){
+    $('#div1').hover(function(){
+        alert("You entered div1!");
+    },
+    function(){
+        alert("Bye! You now leave div1!");
+    });
+});
+
+$(document).ready(function(){
+    $(button).click(function(){
+        alert("You entered button1!");
+    },
+    function(){
+        alert("Bye! You now leave button1!");
+    });
+});
+
+</script>
+</head>
+<body>
+
+<p id="p1">This is a paragraph!</p>
+<div id="div1">This is a test div!</div>
+<button value="This is a button">This is a test button</button>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    //Means that run your jquery function only once your document is ready
+$(document).ready(function(){
+    $("#addClass").click(function(){
+        $("h1, h2, p").addClass("blue");
+    });
+});
+
+$(document).ready(function(){
+    $("#removeClass").click(function(){
+        $("h1, h2, p").removeClass("blue");
+    });
+});
+
+</script>
+
+<style>
+.blue  {
+    font-weight: bold;
+    font-size: xx-large;
+    color: royalblue;
+}
+
+</style>
+</head>
+<body>
+
+<h1>This is a header!</h1>
+<h2>This is a second header!</h2>
+<p>This is a paragraph!</p>
+
+<button id="addClass">Add classes to elements</button>
+<button id="removeClass">Remove classes to elements</button>
+
+</body>
+</html>
+
+
