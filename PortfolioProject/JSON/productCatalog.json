@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "productID": "0",
+      "productName": "Handmade Frankincense Incense Sticks",
+      "productCategory": "Incense",
+      "productPrice": 18.88
+    },
+    {
+      "productID": "1",
+      "productName": "Handmade Sandalwood Incense Sticks",
+      "productCategory": "Incense",
+      "productPrice": 18.88
+    },
+    {
+      "productID": "2",
+      "productName": "Brass Lotus Incense Stick Holder",
+      "productCategory": "Incense Holders",
+      "productPrice": 12.68
+    },
+    {
+      "productID": "3",
+      "productName": "Brass Hands Incense Stick Holder",
+      "productCategory": "Incense Holders",
+      "productPrice": 12.68
+    },
+    {
+      "productID": "4",
+      "productName": "Traditional Chinese Teaware Set",
+      "productCategory": "Teaware",
+      "productPrice": 38.60
+    },
+    {
+      "productID": "5",
+      "productName": "Traditional English Teaware Set",
+      "productCategory": "Teaware",
+      "productPrice": 39.80
+    }
+  ]
+}
