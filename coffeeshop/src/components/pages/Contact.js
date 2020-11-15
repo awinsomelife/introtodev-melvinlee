@@ -1,15 +1,15 @@
 import React from 'react';
 import '../../App.css';
-import HeroSection from '../HeroSection';
+import Form from '../Form';
 import Footer from '../Footer';
 
-function Home() {
+function Contact() {
     return (
         <>
-            <HeroSection />
+            <Form />
             <Footer />
         </>
     );
 }
 
-export default Home
+export default Contact
