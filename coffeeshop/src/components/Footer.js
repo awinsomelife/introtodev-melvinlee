@@ -45,7 +45,7 @@ function Footer() {
                     <div class='footer-logo'>
                         <Link to='/' className='social-logo'>
                             KNOTTY COFFEE
-              <i class='fab fa-typo3' />
+              <i class='fas fa-feather' />
                         </Link>
                     </div>
                     <small class='website-rights'>KNOTTY COFFEE © 2020</small>
